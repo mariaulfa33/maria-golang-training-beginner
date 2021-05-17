@@ -1,4 +1,4 @@
-package main
+package lib
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func TypeVar() {
 	// TODO: task #1 - Why is it not working?
 	var task1 = os.Getenv("task_1")
 	if !reflect.DeepEqual("", task1) {
