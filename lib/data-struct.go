@@ -113,7 +113,6 @@ func DataStructExcercise() {
 	}
 }`)
 	var employee Employee
-	fmt.Println(data)
 
 	if err := json.Unmarshal([]byte(data), &employee); err != nil {
 		fmt.Println(err)
@@ -128,5 +127,7 @@ func DataStructExcercise() {
 		fmt.Println("Task #2 failed!")
 		return
 	}
+	fmt.Println("All Passed!")
+
 	return
 }

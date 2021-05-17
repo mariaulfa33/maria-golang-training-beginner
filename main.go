@@ -6,7 +6,7 @@ import (
 
 func main() {
 	// excercise variable types
-	// lib.TypeVar()
+	lib.TypeVar()
 
 	//exercise data struct
 	lib.DataStructExcercise()
